@@ -6,7 +6,7 @@ export default styled(Link)`
   padding: 0.25em 1em;
   width:100%;
   line-height: 200%;
-  margin: 0em;
+  margin: 0;
   background-color: blue;
   text-decoration: none;
   border-radius: 6px;
@@ -24,7 +24,6 @@ export default styled(Link)`
     padding: 6px;
     border: none;
     margin-top: 8px;
-    margin-right: 16px;
     font-size: 27px;
  
   // input {

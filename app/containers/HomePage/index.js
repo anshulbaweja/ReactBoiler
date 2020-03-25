@@ -34,6 +34,7 @@ import { changeUsername } from './actions';
 import { makeSelectUsername } from './selectors';
 import reducer from './reducer';
 import saga from './saga';
+import Menu from 'components/Menu';
 
 /* eslint-disable react/prefer-stateless-function */
 export class HomePage extends React.PureComponent {
@@ -63,10 +64,13 @@ export class HomePage extends React.PureComponent {
             content="A React.js Boilerplate application homepage"
           />
         </Helmet>
+        <Menu/>
         <div>
+
         <H1>
           <FormattedMessage {...messages.header} />
         </H1>
+        
 <select id="filter" style={{border:"2px solid black", paddingRight:"20px",marginRight:"2em"}}>
   <option value="filter">Filter</option>
   <option value="saab">Saab</option>
